@@ -5,6 +5,7 @@
       <NuxtLink to="/count/fetch">前往 /count/fetch</NuxtLink>
       <NuxtLink to="/count/useAsyncData">前往 /count/useAsyncData</NuxtLink>
       <NuxtLink to="/about/useFetch">前往 /about/useFetch</NuxtLink>
+      <NuxtLink to="/Hydration-Mismatch">前往 /Hydration Mismatch 範例</NuxtLink>
     </div>
   </div>
 </template>
