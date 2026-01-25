@@ -5,5 +5,9 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   runtimeConfig: {
     apiSecret: '怎麼可以讓你知道呢 :P',
+    testEnv: '',
+    public: {
+      apiBase: '/api',
+    },
   },
 })
