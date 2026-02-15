@@ -9,6 +9,7 @@
       <NuxtLink to="/hello">建立前後端都能存取的 Runtime Config</NuxtLink>
       <NuxtLink to="/useHead">前往 /useHead 範例</NuxtLink>
       <NuxtLink to="/cookie">前往 /cookie 範例</NuxtLink>
+      <NuxtLink to="/login">串接 Google OAuth 範例</NuxtLink>
     </div>
   </div>
 </template>

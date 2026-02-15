@@ -6,8 +6,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     apiSecret: '怎麼可以讓你知道呢 :P',
     testEnv: '',
+    googleClientSecret: import.meta.env.NUXT_GOOGLE_CLIENT_SECRET,
     public: {
       apiBase: '/api',
+      googleClientId: import.meta.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
+      googleRedirectUri: import.meta.env.NUXT_PUBLIC_GOOGLE_REDIRECT_URI,
     },
   },
 })
