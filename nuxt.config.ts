@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     apiSecret: '怎麼可以讓你知道呢 :P',
     testEnv: '',
     googleClientSecret: import.meta.env.NUXT_GOOGLE_CLIENT_SECRET,
+    jwtSignSecret: import.meta.env.NUXT_JWT_SIGN_SECRET,
     public: {
       apiBase: '/api',
       googleClientId: import.meta.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
